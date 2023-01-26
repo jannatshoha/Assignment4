@@ -3,6 +3,7 @@ body{
     background-color: white;
     margin: 0;
 }
+/* 1st secction */
 
 .rectangle{
     position: absolute;
@@ -11,7 +12,7 @@ body{
     top: 50px;
     left: 140px;
     border-radius: 20px;
-    background-color:black;
+    background-color:rgb(59, 44, 44);
    
 }
 h1{
@@ -41,6 +42,7 @@ h1{
      font-size: 16px;
      line-height: 26px;
      }
+     
 
 
 
@@ -70,16 +72,26 @@ h1{
     width: 200px;
     left: 200px;
   }
+  /* 1st section end */
+
+
     .main-div{
         position: relative;
+        width: 1110px;
         top: 600px;
         left: 140px;
         top:550px;
         width:1110px ;
+        height: 400px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 10px;
        
     }
+    
+
+
+   
     .link a{
         text-decoration: none;
         width: 150px;
@@ -114,7 +126,7 @@ h1{
    .choto-div{
     background-color: black;
     width: 210px;
-    height:206px ;
+    height:220px ;
     
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -125,15 +137,16 @@ h1{
 .field{
     
     width: 260px;
-    height: 200px ;
+    height: 300px ;
     border: rgb(204, 195, 195) solid 1px;
     border-radius: 5px;
     margin-top: 15px;
-    background-color: aqua;
+    background-color: rgb(254, 255, 255);
     
 }
 .field img{
     width: 260px;
+    
   
     
     border-radius: 5px;
@@ -141,9 +154,86 @@ h1{
 .play-detail a{
     text-decoration: none;
     font-size: 20px;
+    
     color:black;
     border: rgb(94, 210, 245) solid 4px;
-    padding: 7px;
+    padding: 1px;
     border-radius: 5px    ;
    
+}
+.icon{
+    
+    width: 143px;
+    height: 26px;
+    left: 250px;
+
+
+}
+/* 2nd section end */
+
+.thrid-div{
+    position: relative;
+        width: 1110px;
+        top: 600px;
+        left:415px;
+        top:500px;
+        width:1110px ;
+        height: 400px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 10px;
+
+
+}
+
+.thrid-div1{
+    position: relative;
+    width: 1110px;
+    top: 600px;
+    left:415px;
+    top:450px;
+    width:1110px ;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+
+}
+/* footer section start */
+footer{
+    width: 1440px;
+    height: 300px;
+    background-color: rgb(94, 210, 245) ;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    right: 100px;
+}
+footer h1{
+    text-align: center;
+    left: 500px;
+    align-items: center;
+    color: white;
+
+}
+.item{
+    text-align: center;
+   top: 500px;
+}
+.item a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: aliceblue;
+}
+hr{
+    color: white;
+    width: 900px;
+    background-color: white;
+    border: 5px solid rgb(255, 255, 255);
+}
+.social-icon img{
+    width: 50px;
+}
+.footer-goal{
+    text-align: center;
 }
