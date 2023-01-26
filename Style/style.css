@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 0;
 }
 
 .rectangle{
@@ -58,7 +60,8 @@ h1{
        
         display: grid;
             grid-template-columns: repeat(2, 1fr);
-            grid-row-gap: 30px;
+            align-items: center;
+            justify-content: center;
 
 
         }
@@ -66,9 +69,81 @@ h1{
   .imge{
     width: 200px;
     left: 200px;
-   
-    
   }
-
+    .main-div{
+        position: relative;
+        top: 600px;
+        left: 140px;
+        top:550px;
+        width:1110px ;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+       
+    }
+    .link a{
+        text-decoration: none;
+        width: 150px;
+        height: 25px;
+        color: black;
+        background-color: rgb(237, 239, 241);
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        padding: 15px 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        display: grid;
+        margin: 10px
+        
+    }
+    .link-div a{
+        text-decoration: none;
+        width: 150px;
+        height: 25px;
+        color: white;
+        background-color: red;
+        border-radius: 5px;
+        padding: 15px 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        display: grid;
+        margin: 10px
+    }
+   
+   .choto-div{
+    background-color: black;
+    width: 210px;
+    height:206px ;
     
-
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.field{
+    
+    width: 260px;
+    height: 200px ;
+    border: rgb(204, 195, 195) solid 1px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: aqua;
+    
+}
+.field img{
+    width: 260px;
+  
+    
+    border-radius: 5px;
+}
+.play-detail a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    border: rgb(94, 210, 245) solid 4px;
+    padding: 7px;
+    border-radius: 5px    ;
+   
+}
